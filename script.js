@@ -7,6 +7,13 @@ tl.from("#nav h3",{
     duration:0.8,
     stagger:0.3
 })
+tl.from("#nav i",{
+    y:-50,
+    opacity:0,
+    // delay:0.1,
+    duration:0.4,
+    stagger:0.1
+})
 
 tl.from("#main h1", {
     x:-500,
